@@ -6822,7 +6822,7 @@ namespace ts {
     }
 
     /* @internal */
-    export type RequireResult<T = {}> =
+    export type ModuleImportResult<T = {}> =
         | { module: T, modulePath?: string, error: undefined }
         | { module: undefined, modulePath?: undefined, error: { stack?: string, message?: string } };
 
