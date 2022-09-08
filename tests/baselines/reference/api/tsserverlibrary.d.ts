@@ -10304,6 +10304,7 @@ declare namespace ts.server {
         excludedFiles: readonly NormalizedPath[];
         updateGraph(): boolean;
         getExcludedFiles(): readonly NormalizedPath[];
+        close(): void;
     }
 }
 declare namespace ts.server {
